@@ -1,0 +1,291 @@
+*{
+  font-family: "微软雅黑";
+}
+.train--{
+    width: 687px;
+    height: 314px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-- div{
+    display: flex;
+    box-sizing: border-box;
+}
+.train-way{
+    width: 100%;
+    height: 28px;  
+
+    list-style: none;
+}
+.train-way-num{
+    height: 100%;
+    width: 79px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: -webkit-linear-gradient(rgb(47,148,205), rgb(29,137,197));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 
+}
+.train-way-timer{
+    height: 100% - 5px;
+    width: 608px;
+    border-bottom: 5px solid rgb(27,136,196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.train-info{
+    width: 100%;
+    height: 50px;
+     background: -webkit-linear-gradient(rgb(252,255,255), rgb(243,244,244));
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.train-info li{
+    width: 100%;
+    height: 50%;
+    list-style: none;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.operate{
+    width: 100%;
+    height: 24px;
+    background: rgb(255,251,222);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #bbb;
+    list-style: none;
+}
+.train-tittle{
+        width: 100%;
+    height: 17px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.train-tittle div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206,220,232);
+    font-size: 5px;
+    color: rgb(96,122,144);
+}
+.train-tittle-route{
+    width: 405px;
+    border-right: 1px solid white;
+}
+.train-tittle-position{
+    width: 64px;
+    border-right: 1px solid white;
+}
+.train-tittle-cost{
+    width: 69px;
+    border-right: 1px solid white;
+}
+.train-tittle-site{
+    width: 82px;
+    border-right: 1px solid white;
+}
+.train-tittle-distance{
+    width: 66px;
+}
+
+
+
+
+.detail-route-timer-which{
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(rgb(252,125,24), rgb(255,64,2));
+    color: white;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.train-station{
+        width: 100%;
+    height: 41px;
+    display: flex;
+    background: rgb(242,242,242);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bbb;
+}
+.train-station div{
+    display: flex;
+}
+.train-detail-route,.train-station-route{
+    height: 100%;
+    width: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-route-coin ,.train-station-coin{
+     list-style: none;
+    width: 45px;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+}
+.route-coin{
+    width: 8px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(150,199,216);
+}
+.squar{
+    width: 2px;
+    height: 7px;
+    background: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.train-station-name{
+    width: 289px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 17px;
+}
+.train-station-num{
+    width: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 10px;
+}
+.train-station-choice{
+    width: 217px;
+    justify-content: flex-end;
+    align-items: center;
+        font-size: 5px;
+}
+.train-station-choice a{
+    height: 100%;
+    width: 43px;
+    padding-right: 1px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    margin-right: 1px;
+    font-size: 13px;
+}
+.train-detail{
+    width: 100%;
+    height: 41px;
+}
+.train-detail div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+}
+.detail-route-time{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.train-station-time{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+    padding-left: 10px;
+    list-style: none;
+
+}
+.detail-route-name{
+    height: 41px;
+    list-style: none;
+    padding-left: 5px;
+    width: 293px;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+.detail-route-position{
+    width: 64px;
+    border-left: 1px solid #bbb;
+}
+.detail-route-cost{
+    width:69px;
+    border-left: 1px solid #bbb;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail-route-site{
+    width:82px;
+    border-left: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.train-route-distance{
+    width:66px;
+    border-left: 1px solid #bbb;
+}
+
+
+
+
+
+
+
+
+
+
+.squa{
+    width: 14px;
+    height: 14px;
+    border: 1px solid white;
+    list-style: none;
+    background: -webkit-linear-gradient(rgb(74,185,230), rgb(38,160,217));
+}
+.ssqure{
+    width: 10px;
+    height: 10px;
+    margin-right: 7px;
+    background: -webkit-linear-gradient(rgb(74,185,230), rgb(38,160,217));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lssqure{
+    width: 6px;
+    height: 6px;
+    background: white;
+}
