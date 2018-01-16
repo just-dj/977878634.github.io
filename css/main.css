@@ -963,7 +963,10 @@ pre .javascript .function {
 .header-inner {
   position: relative;
 }
-
+.headband {
+  height: 3px;
+  background: #222;
+}
 .site-meta {
   margin: 0;
   text-align: center;
@@ -1688,7 +1691,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff940b;
+  background: #47ff7e;
 }
 .links-of-blogroll {
   font-size: 13px;
