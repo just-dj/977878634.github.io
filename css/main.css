@@ -964,8 +964,8 @@ pre .javascript .function {
   position: relative;
 }
 .headband {
-  height: 3px;
-  background: #222;
+  height: 0px;
+  background: #fff;
 }
 .site-meta {
   margin: 0;
